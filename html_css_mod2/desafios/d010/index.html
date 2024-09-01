@@ -3,6 +3,11 @@ Reajustando algumas coisas porque o site do vídeo é diferente do PDF. Mas aind
 <span title=""> no nome das versões do Android no <aside>.
 -->
 
+<!--EDIT 2:
+Itens no <footer> estão em um <a> ao invés de <span>;
+Uma lista só ao invés de duas no <aside>;    
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -32,6 +37,7 @@ Reajustando algumas coisas porque o site do vídeo é diferente do PDF. Mas aind
     <main>
         <section id="intro">
             <h1>História do mascote do Android</h1>
+                <!--Guanabara usou <strong> ao invés de um <span> com CSS, mas sinto que o <span> me dá mais liberdade-->
                 <p>Provavelmente você sabe que o sistema operacional <span class="destaque">Android</span>, mantido pelo <span class="destaque">Google</span> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas talvez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho<span>.</span></p>
         </section>
         <article>
@@ -61,15 +67,14 @@ Reajustando algumas coisas porque o site do vídeo é diferente do PDF. Mas aind
             <h3>Quer aprender mais?</h3>
                 <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
                     <ul>
+                        <!-- Guanabara colou os itens dentro de <abbr>, mas achei inimigo da semântica, então manterei no <span> -->
                         <li>1.5 - <span title="Bolinho">Cupcake</span></li>
                         <li>1.6 - <span title="Rosquinha">Donut</span></li>
                         <li>3.0 - <span title="Bomba (de chocolate)">Eclair</span></li>
                         <li>2.2 - <span title="Iogurte Congelado">Froyo</span></li>
                         <li>2.3 - <span title="Biscoito de Gengibre">Gingerbread</span></li>
-                        <li>3.0 - <span title="Colméia de Mel">Honeycomb</span></li>
+                        <li>3.0 - <span title="Favo de Mel">Honeycomb</span></li>
                         <li>4.0 - <span title="Sanduíche de Sorvete">Ice Cream Sandwich</span></li>
-                    </ul>
-                    <ul>
                         <li>4.1 - <span title="Jujuba">Jelly Bean</span></li>
                         <li>4.4 - <span title="KitKat">KitKat</span></li>
                         <li>5.0 - <span title="Pirulito">Lolipop</span></li>
@@ -85,7 +90,7 @@ Reajustando algumas coisas porque o site do vídeo é diferente do PDF. Mas aind
     </main>
     <br>
     <footer>
-        <small>Site criado por <span class="highlight">Carlos Samuel</span> para o curso de HTML do <span class="highlight">CursoemVideo</span>.</small>
+        <small>Site criado por <a href="https://github.com/Crtykwod" class="highlight">Carlos Samuel</a> para o curso de HTML do <a href="https://youtube.com/cursoemvideo" class="highlight">CursoemVideo</a>.</small>
     </footer>
 </body>
 </html>

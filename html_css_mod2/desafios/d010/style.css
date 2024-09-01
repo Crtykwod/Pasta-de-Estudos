@@ -9,6 +9,15 @@ Centralização das <img> no <article>;
 Underline nos novos <span> em <aside>.
 */
 
+/*EDIT 2 PÓS CAPITULO 17
+Criei um :root com a paleta de cores e fontes, mas decidi não usar porque as cores usadas, na minha opinião, já estão satisfatórias;
+Não pensei em colocar os itens do footer com .highlight em formato de link, mas vendo os vídeos, eles são, então agora eles são <a> ao invés de <span> e possuem um :hover;
+Bordas Curvas na parte de baixo do <main>;
+line-height maior nos <p> do <main>;
+Ao invés de duas listas no <aside> em inline-block, coloquei uma lista em duas colunas;
+Sombra e Espaçamento no <h1> do <header>
+*/
+
 @charset "UTF-8";
 
 @font-face {
@@ -19,6 +28,19 @@ Underline nos novos <span> em <aside>.
 @font-face {
     font-family: "Coolvetica";
     src: url("fonts/coolvetica\ condensed\ rg.otf") format("opentype");
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Coolvetica', cursive;
+    --fonte-android: 'Android', cursive;
 }
 
 body {
@@ -44,11 +66,13 @@ header p{
 p {
     text-indent: 2em;
     text-align: justify;
+    line-height: 1.5em;
 }
 
 header h1 {
     font-family: Coolvetica, Arial, sans-serif;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.692);
+    letter-spacing: 2px;
 }
 
 header ul {
@@ -82,6 +106,7 @@ main {
     background-color: white;
     padding: 12px;
     outline: 6px solid #79786623;
+    border-radius: 0 0 25px 25px;
 }
 
 #intro h1 {
@@ -165,7 +190,7 @@ aside h3 {
 }
 
 aside ul {
-    display: inline-block;
+    columns: 2;
     padding-right: 1em;
 }
 
@@ -203,4 +228,9 @@ footer {
 .highlight {
     color: white;
     font-weight: bold;
+    text-decoration: none;
+}
+
+a.highlight:hover {
+    color: var(--cor1);
 }
