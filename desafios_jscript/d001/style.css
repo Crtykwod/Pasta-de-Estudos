@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.596));
+    background-size: cover;
+    background-attachment: fixed;
+    font: normal 400 1.2em Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#calc {
+    background-color: rgb(31, 31, 44);
+    width: 400px;
+    height: 300px;
+    margin: 150px auto;
+    padding: 15px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.658);
+    border-radius: 5%;
+}
+
+input[type='number']{
+    margin: 10px 5px;
+    padding: 10px;
+    width: 80px;
+    font-size: 1.1em;
+}
+
+select {
+    margin: 10px 5px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+div h1 {
+    padding-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 4px 6px;
+}
+
+div#res {
+    padding-top: 25px;
+    font-size: 3em;
+}
