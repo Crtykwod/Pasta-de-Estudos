@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Conversor de Temperatura</h1>
+        <select name="Unidade de Medida" id="un">
+            <option value="C">Celsius &deg;C</option>
+            <option value="F">Farenheit &deg;F</option>
+        </select>
+        <div id="conversor">
+            <input class="box" type="number" name="input" id="input" placeholder=" &deg;C">
+            <p>=</p>
+            <div class="box" id="output">&deg;F</div>
+        </div>
+        <input type="button" id="calcular" value="Calcular" onclick="calcular()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
