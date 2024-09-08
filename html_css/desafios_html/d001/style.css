@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image:  linear-gradient(to right,#ffe2cb, #fff0e5)
+}
+
+header {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px, 20px;
+    background-image: linear-gradient(to right, #16221d, #183938);
+    background-color: #16221d;
+    filter: drop-shadow(0 0 0.25rem crimsom);
+    color: #be9b7d ;
+    border-radius: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  li {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 0 10px;
+  }
+  
+  li a {
+    transition: all 400ms ease 0ms;
+    color: #DCB391;
+    text-decoration: none;
+  }
+
+h1, h2, h3 {
+    font-family: "amatic sc";
+    font-size: 2rem;
+}
+
+p, a {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5em;
+}
