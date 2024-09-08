@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-color: #000;
+    font: normal 1em Arial, sans-serif;
+}
+
+.manha {
+    background-image: linear-gradient(to bottom, #e0df74, #636132) ;
+    background-attachment: fixed;
+}
+
+.tarde {
+    background-image: linear-gradient(to bottom, #a77964, #4d382d);
+    background-attachment: fixed;
+}
+
+.noite {
+    background-image: linear-gradient(to bottom, #3a3a3a, #0f0f0f);
+    background-attachment: fixed;
+}
+
+.madrugada {
+    background-color: #000;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.355);
+    text-align: center;
+}
+
+img {
+    padding: 25px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
