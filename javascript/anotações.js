@@ -9,6 +9,7 @@ Number(n) // Tanto para Inteiros, quanto Reais.
 
 String(n)
 n.toString()
+n.toString().replace(".", ",") // trocar ponto por vírgula
 
 //________________________________________________________________//
 
@@ -169,3 +170,59 @@ n1.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'}) //transforma em 
 'Por Seletor'
     querySelector()
     querySelectorAll() //Plural
+
+//______________________________________________________________//
+
+//Condições
+
+if (condição) {
+    'true'
+} else {
+    'false'
+}
+
+//Tipos de Condição:
+
+    //Condição Simples
+
+    if (condição) {
+        
+    }
+
+    //Condição Composta
+
+    if (condição) {
+        
+    } else {
+        
+    }
+
+    //Condições Aninhadas
+
+    if (cond1) {
+        'bloco1'
+    } else {
+        if (cond2) {
+            'bloco2'
+        } else {
+            'bloco3'
+        }
+    }
+
+    //Condições Multiplas (switch)
+
+    switch (expressão) {
+        case valor1:
+            'Result 1'
+             break
+        case valor2:
+            'Result 2'
+             break
+        case valor3:
+            'Result 3'
+             break
+        default:
+            'Result 4'
+             break
+    }
+
