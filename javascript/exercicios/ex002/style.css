@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+    background-color: #2f3255;
+    font: normal 1em Arial, sans-serif;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.355);
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+div {
+    margin: 7px 0;
+}
+
+#resultado {
+    text-align: center;
+}
+
+p {
+    margin: 7px 0;
+}
+
+.legenda {
+    font-weight: bold;
+}
+
+input[type = radio] {
+    float: inline-start;
+}
+
+ol {
+    list-style-type: none;
+    margin: 5px -45px;
+}
+
+li {
+    display: inline-block;
+}
+
+button {
+    margin: 5px 0;
+}
+
+.imagem {
+    display: none;
+    margin: auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+
+    &.menino {
+        background-image: url(https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&w=600);
+        background-position: 72% 0%;
+    }
+
+    &.menina {
+        background-image: url(https://images.pexels.com/photos/36029/aroni-arsa-children-little.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: 55% 40%;
+    }
+
+    &.homem {
+        background-image: url(https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: 50% 15%;
+    }
+
+    &.mulher {
+        background-image: url(https://images.pexels.com/photos/28123674/pexels-photo-28123674/free-photo-of-mulher-veiculo-carro-de-pe.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: 50% 25%;
+    }
+
+    &.idoso {
+        background-image: url(https://images.pexels.com/photos/1652340/pexels-photo-1652340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: 75% 15%;
+    }
+
+    &.idosa {
+        background-image: url(https://images.pexels.com/photos/6625737/pexels-photo-6625737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: 50% 10%;
+    }
+}

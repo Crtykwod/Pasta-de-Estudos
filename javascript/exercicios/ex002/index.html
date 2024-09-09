@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Verificador de Idade</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+        <section>
+            <form id="form" action="">
+                <div>
+                    <label for="dataNascimento">
+                        <span class="legenda">Ano de Nascimento:</span>
+                        <p>
+                            <input
+                                type="date"
+                                min="1900-01-01"
+                                max="2050-01-01"
+                                name="dataNascimento"
+                                id="dataNascimento"
+                                placeholder="Insira sua data de nascimento."
+                            />
+                        </p>
+                    </label>
+                </div>
+                <div>
+                    <span class="legenda">Gênero:</span>
+                    <ol>
+                        <li>
+                            <label for="genM">Masculino</label>
+                            <input
+                                type="radio" 
+                                name="gen" 
+                                value="genM"
+                                id="genM"
+                            />
+                        </li>
+                        <li>
+                            <label for="genF">Feminino</label>
+                            <input
+                                required
+                                type="radio"
+                                name="gen"
+                                value="genF"
+                                id="genF"
+                            />
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <label for="verificar">
+                        <button id="verificar">Verificar</button>
+                    </label>
+                </div>
+            </form>
+            <div id="resultado"></div>
+            <div class="imagem">
+            </div>
+        </section>
+        <footer>
+            <p>&COPY; Curso em Vídeo</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
