@@ -226,3 +226,44 @@ if (condição) {
              break
     }
 
+//____________________________________________________________//
+
+//Repetições
+
+function comerPizza() {
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+}
+
+// Estrutura de Repetição com teste lógico no ínico
+
+while (condição) {
+    "bloco a executar"
+    
+}   // Repete a execução do bloco enquanto a condição for verdade
+
+function comerPizza() {
+    while(temFatia()) {
+        comerFatia()
+    }
+}
+
+// Estrutura de Repetição com teste lógico no final
+
+do {
+    "bloco a executar"
+} while (condição)
+
+// Estruta de Repetição com Variável de Controle
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+
+}
+
+for (var c=1; c<=10; c++) {
+    console.log(c)
+}
