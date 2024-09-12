@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-color: #525252;
+    font: normal 1em Arial, sans-serif;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.355);
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+th {
+    text-align: left;
+}
+
+button {
+    margin: 15px 0 5px;
+}
+
+ul {
+    margin: 0 15px;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    margin: 10px 2px 0 0;
+}
+
+li:last-of-type::after {
+    content: "🏁";
+}
+
+li::after {
+    content: "👉";
+}

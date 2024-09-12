@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Super Contador</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Vamos Contar</h1>
+        </header>
+        <section>
+                <form action="" id="form">
+                    <table>
+                        <tr>
+                            <th>
+                                <label for="inicio">Início:</label>
+                            </th>
+                                <td>
+                                    <input type="number" name="inicio" id="inicio" placeholder="Insira um número">
+                                </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="fim">Fim:</label>
+                            </th>
+                                <td>
+                                    <input type="number" name="fim" id="fim" placeholder="Insira um número">
+                                </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="passo">Passo:</label>
+                            </th>
+                                <td>
+                                    <input type="number" name="passo" id="passo" placeholder="Passos até próximo nº ">
+                                </td>
+                        </tr>
+                    </table>
+                    <button>Calcular</button>
+                </form>
+                <p id="resTxt">Preparando a contagem...</p>
+                <ul id="resultado">
+                    
+                </ul>
+        </section>
+        <footer>
+            <p>&COPY; Curso em Vídeo</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
