@@ -267,3 +267,63 @@ for (let index = 0; index < array.length; index++) {
 for (var c=1; c<=10; c++) {
     console.log(c)
 }
+
+//________________________________________________________________//
+
+//Arrays
+
+let num = [5, 8, 4] // 5 = num[0], 8 = num[1], 4 = num[2]
+    [5, 8, 4]
+
+num[3] = 6          // 6 = num[3]
+    [5, 8, 4, 6]
+
+num.push(7)         // 7 = num[4] -> faz o elemento ser o último
+    [5, 8, 4, 6, 7]
+
+num.sort()          // Coloca em ordem crescente
+    [4, 5, 6, 7, 8]
+
+num.indexOf(7)      // Retoma a posição 3
+
+num.indexOf(3)      // Retoma -1, pois não há 3
+
+
+    // Repetição + Arrays
+
+    for (var pos = 0; pos < num.length; pos++) {
+        console.log(num[pos]);
+    }
+
+    for (let pos in valores) {
+        console.log(num[pos])
+    }
+
+//________________________________________________________________//
+
+//Funções
+
+[Chamada]
+[Parâmetro]
+[Ação]
+[Retorno] // [Resultado]
+
+`Funções são ${[ações]} executadas assim que são ${[chamadas]} ou em decorrência de algum evento`
+
+`Uma função pode receber ${[parâmetros]} e retomar um ${[resultado]}`
+
+//__________//
+
+function ação(param) {
+
+    return res
+}
+ação(5)
+
+function parImp(n) {
+    if (n % 2 == 0) {
+        return "par"
+    } else {
+        return "impar"
+    }
+}
