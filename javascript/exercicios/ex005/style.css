@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body {
+    background-color: #041403;
+    font: normal 1.1em Arial, sans-serif;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    width: max-content;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.355);
+}
+
+select {
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 150px;
+    width: max-content;
+    font-size: 1em;
+    height: 200px;
+    overflow: scroll, auto;
+    margin-top: 10px;
+}
+
+select::-webkit-scrollbar {
+    width: 12px;
+}
+select::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 19px;
+}
+
+select::-webkit-scrollbar-thumb {
+    background: #616161;
+    border-radius: 19px;
+}
+
+option {
+   padding: 4px;
+   transition: 150ms ease-in-out;
+}
+
+option:hover, option:checked {
+    background-color: rgb(0, 104, 104);
+    padding: 6px;
+    color: white;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+div#saida {
+    width: max-content;
+}
+
+div#botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    margin: 5px 5px 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button#finalizar {
+    background-color: #0c0;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.568);
+    border-radius: 3px;
+    transition: color 250ms;
+}
+
+button#finalizar:hover, #finalizar:active {
+    background-color: #080;
+}
+
+.oculto {
+    display: none;
+}
+
+button#remover {
+    background-color: #d00;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.568);
+    border-radius: 3px;
+}
+
+button#remover:hover, #remover:active {
+    background-color: #a00;
+}
